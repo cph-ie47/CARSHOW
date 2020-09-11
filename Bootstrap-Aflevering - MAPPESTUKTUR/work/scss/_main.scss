@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: $p-font;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $H-font;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+
+
+
+#tilbud {
+    margin-top: 20px;
+}
+
+
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }
+
+  #footer-dims{
+      margin-top: 50px;
+      padding: 20px 0;
+      background-color: grey;
+  }
+
+  #titler {
+      margin: 50px 0;
+  }
+
+  #normal-pris {
+    opacity: 0.4; 
+  }
+
+
+  nav a {
+      @include menu-links;
+  }
